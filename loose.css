@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:700&display=swap');
+body
+{
+	background-color: #37474F;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+header
+{
+	background-color: white;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+header h1
+{
+	font-family: Asap;
+	font-size: 48px;
+	text-align: center;
+}
+.result
+{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: white;
+	border: 5px red solid;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 300px;
+	color: red;
+	font-family: Asap;
+}
+.retry
+{
+	width: 50px;
+	height: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	transform: translateY(300px);
+	font-size: 32px;
+	color: white;
+}
